@@ -1,0 +1,1 @@
+This project is about a brief landing page for a small business called Bukhosini Mobile Spa. The page provides information about a variety of treatments along with their prices. For bookings and inquiries, clients can send a WhatsApp message or call.
