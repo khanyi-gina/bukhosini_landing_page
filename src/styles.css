@@ -99,10 +99,10 @@ h1,
 
        .gallery {
              display: grid;
-              grid-template-columns: 100px 100px;
+              grid-template-columns: repeat(2, 1fr);
               gap: 20px;
        }
-       .foot-scrub, anatomy {
+       .foot-scrub, .anatomy {
              object-fit: cover;
        }
 
