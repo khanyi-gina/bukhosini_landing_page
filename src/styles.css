@@ -97,6 +97,13 @@ h1,
         object-fit: cover;
       }
 
+       .gallery img {
+              object-fit: cover;
+       }
+       .gallery {
+             display: grid;
+       }
+
       .whatsapp {
         display: flex;
         justify-content: center;
