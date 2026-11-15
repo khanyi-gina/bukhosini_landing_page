@@ -161,6 +161,9 @@ h1,
           gap: 5px;
           margin-bottom: 10px;
         }
+         .gallery img {
+             height: 60px;
+       }
             
         h1 {
          font-size: 18px;
