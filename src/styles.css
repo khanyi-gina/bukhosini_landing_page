@@ -97,11 +97,13 @@ h1,
         object-fit: cover;
       }
 
-       .gallery img {
-              object-fit: cover;
-       }
        .gallery {
              display: grid;
+              grid-template-columns: 100px 100px;
+              gap: 20px;
+       }
+       .foot-scrub, anatomy {
+             object-fit: cover;
        }
 
       .whatsapp {
