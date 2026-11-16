@@ -158,8 +158,8 @@ h1,
         }
         
         .gallery {
-          gap: 5px;
-          margin: 8px;
+          gap: 10px;
+          margin-bottom: 10px;
         }
          .gallery img {
              height: 85px;
