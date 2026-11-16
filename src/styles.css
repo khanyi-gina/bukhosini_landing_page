@@ -159,7 +159,7 @@ h1,
         
         .gallery {
           gap: 5px;
-          margin: 0 auto 10px;
+          margin: 12px;
         }
          .gallery img {
              height: 85px;
