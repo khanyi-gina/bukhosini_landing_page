@@ -20,6 +20,9 @@
          margin: 0; 
          min-height: 100vh;
        }
+      .beige {
+        background-color: #b9a281;
+      }
       
       .reflex-pic {
         transition: all 200ms ease-in-out;
@@ -139,6 +142,15 @@
           );
         }
       }
+
+      function changeTheme() {
+        let body = document.querySelector("body");
+        body.classList.add("beige");
+      }
+
+      let themeButton = document.querySelector("#change-theme-button");
+      themeButton.addEventListener("click", toggleTheme)
+      
       let bookingsButton = document.querySelector("button");
       bookingsButton.addEventListener("click", bookings);
      </script
