@@ -141,8 +141,8 @@ h1,
         }
         
         .gallery {
-          gap: 12px;
-          margin-bottom: 12px;
+          gap: 15px;
+          margin-bottom: 15px;
         }
          .gallery img {
             max-height: 120px;
