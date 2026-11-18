@@ -56,7 +56,7 @@
 
   <body>
     <div class="container">
-    <button id="change-theme-button" class="change-theme-button">
+    <button id="change-theme-button">
       CHANGE THEME
     </button>
       <header>
@@ -108,7 +108,7 @@
         </p>
       </section>
       <footer>
-        <button>BOOK ONLINE</button>
+        <button id="online-booking">BOOK ONLINE</button>
         <div class="contacts">For more treatments and bookings click here</div>
         <br />
         <div class="emoji">👇</div>
@@ -145,14 +145,14 @@
 
       function changeTheme() {
         let body = document.querySelector("body");
-        body.classList.add("beige");
+        body.classList.toggle("beige");
       }
 
       let themeButton = document.querySelector("#change-theme-button");
       themeButton.addEventListener("click", changeTheme);
       
-      let bookingsButton = document.querySelector("button");
+      let bookingsButton = document.querySelector("#online-booking");
       bookingsButton.addEventListener("click", bookings);
-     </script
+     </script>
   </body>
 </html>
