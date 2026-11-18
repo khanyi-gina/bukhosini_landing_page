@@ -119,6 +119,21 @@
       </footer>
     </div>
     <script>
+
+       let theme = "light";
+       let themeButton = document.querySelector("#change-theme-button");
+
+      function toggleTheme() {
+        if (theme === "light") {
+          theme = "dark";
+          document.querySelector("body").classList.add("dark");
+        } else {
+          theme = "light";
+          document.querySelector("body").classList.remove("dark");
+        }
+      }
+       themeButton.addEventListener("click", toggleTheme);
+      
       function bookings() {
         let name = prompt("Enter name");
         let age = prompt("How old are you?");
@@ -144,21 +159,6 @@
       }
       let bookingsButton = document.querySelector("button");
       bookingsButton.addEventListener("click", bookings);
-
-       let theme = "light";
-       let themeButton = document.querySelector("#change-theme-button");
-
-      function toggleTheme() {
-        if (theme === "light") {
-          theme = "dark";
-          document.querySelector("body").classList.add("dark");
-        } else {
-          theme = "light";
-          document.querySelector("body").classList.remove("dark");
-        }
-      }
-       
-       themeButton.addEventListener("click", toggleTheme);
-    </script>
+     </script
   </body>
 </html>
