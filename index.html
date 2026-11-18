@@ -47,6 +47,14 @@
         display: flex;
         justify-content: flex-start;
       }
+      body.dark {
+        background-color: #b9a281; /* The new background color */
+      }
+
+      body.dark .container {
+        background: #fdfcfb; /* Keeps the card slightly off-white to contrast with the tan background */
+        box-shadow: 0px 30px 50px rgba(65, 50, 100, 0.2);
+      }
       
       </style>
   </head>
@@ -141,6 +149,21 @@
       }
       let bookingsButton = document.querySelector("button");
       bookingsButton.addEventListener("click", bookings);
+
+      let theme = "light";
+      let themeButton = document.querySelector("#change-theme-button");
+
+      function toggleTheme() {
+        if (theme === "light") {
+          theme = "dark";
+          document.querySelector("body").classList.add("dark");
+        } else {
+          theme = "light";
+          document.querySelector("body").classList.remove("dark");
+        }
+      }
+
+      themeButton.addEventListener("click", toggleTheme);
     </script>
   </body>
 </html>
