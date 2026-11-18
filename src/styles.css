@@ -141,11 +141,11 @@ h1,
         }
         
         .gallery {
-          gap: 10px;
-          margin-bottom: 10px;
+          gap: 8px;
+          margin-bottom: 6px;
         }
          .gallery img {
-            max-height: 130px;
+            max-height: 120px;
        }
             
         h1 {
