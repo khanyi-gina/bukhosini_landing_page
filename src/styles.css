@@ -139,11 +139,7 @@ h1,
          object-fit: cover;       /* Fills the space, might crop edges */
          max-height: 220px;
         }
-        
-        .gallery {
-          gap: 15px;
-          margin-bottom: 15px;
-        }
+
          .gallery img {
             max-height: 120px;
        }
