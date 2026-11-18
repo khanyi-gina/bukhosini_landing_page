@@ -149,7 +149,11 @@
       }
       let bookingsButton = document.querySelector("button");
       bookingsButton.addEventListener("click", bookings);
-      
+
+       let theme = "light";
+      let themeButton = document.querySelector("#change-theme-button");
+      themeButton.addEventListener("click", toggleTheme);
+   
       function toggleTheme() {
         if (theme === "light") {
           theme = "dark";
@@ -160,9 +164,6 @@
         }
       }
 
-      let theme = "light";
-      let themeButton = document.querySelector("#change-theme-button");
-      themeButton.addEventListener("click", toggleTheme);
     </script>
   </body>
 </html>
