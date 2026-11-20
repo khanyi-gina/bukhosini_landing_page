@@ -99,6 +99,10 @@ h1,
       .designer {
             display: flex;
             justify-content: center;
+            gap: 10;
+      }
+      .designer-link {
+            color: white;
       }
             
       .whatsapp {
