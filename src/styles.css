@@ -105,7 +105,7 @@ h1,
       .designer-link {
         color: white;
         display: inline;
-        text-decoration: none;
+        text-decoration: underline;
       }
             
       .whatsapp {
@@ -198,7 +198,8 @@ h1,
          .whatsapp {
            font-size: 38px;
         }
-       .designer, designer-link {
+            
+       .designer, .designer-link {
             font-size: small;
       }
 }
