@@ -105,8 +105,7 @@ h1,
       .designer-link {
         color: white;
         display: inline;
-        margin: 0 5px;
-        text-decoration: underline;
+        text-decoration: none;
       }
             
       .whatsapp {
