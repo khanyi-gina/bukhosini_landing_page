@@ -196,4 +196,7 @@ h1,
          .whatsapp {
            font-size: 38px;
         }
+       .designer, designer-link {
+            font-size: small;
       }
+}
