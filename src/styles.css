@@ -97,8 +97,8 @@ h1,
       }
 
       .designer {
-            dispaly: flex;
-            content-display: center;
+            display: flex;
+            justify-content: center;
       }
             
       .whatsapp {
