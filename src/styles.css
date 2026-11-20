@@ -96,6 +96,11 @@ h1,
         object-fit: cover;
       }
 
+      .designer {
+            dispaly: flex;
+            content-display: center;
+      }
+            
       .whatsapp {
         display: flex;
         justify-content: center;
