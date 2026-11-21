@@ -190,7 +190,72 @@
         justify-content: flex-start;
       }
 
-      </style>
+      @media (max-width: 480px) {
+        .logo {
+          width: 55%;              /* Slightly smaller than full width */
+          max-width: 280px;        /* Prevents it from getting too large */
+          margin: 0 auto 25px;     /* Centers it and reduces bottom margin */
+          display: block;
+          height: auto;            /* Maintains aspect ratio */
+        }
+        
+        .reflex-pic {
+         object-fit: cover;       /* Fills the space, might crop edges */
+         max-height: 220px;
+        }
+
+         .gallery img {
+            max-height: 120px;
+       }
+            
+        h1 {
+         font-size: 18px;
+         line-height: 25px;
+        }
+       
+        h2 {
+         font-size: 14px;
+        }
+        
+        .text-container {
+         font-size: 9px;
+         line-height: 10px;        /* Better line height for reading */
+         padding: 0 5px;
+        }
+
+        .info {
+         width: 95%;              /* Full width on very small screens */
+         padding: 8px 10px;       /* Adjusted padding */
+         font-size: 10px;          /* Slightly smaller text */
+        }
+
+        .details {
+         font-size: 9px;
+        }
+
+        button {
+           width: 100%;
+           padding: 8px 10px;
+           font-size: 10px;
+        }
+
+        .contacts {
+          font-size: small;
+        }
+
+        .emoji {
+          font-size: 26px;
+        }
+
+         .whatsapp {
+           font-size: 38px;
+        }
+            
+       .designer, .designer-link {
+            font-size: small;
+      }
+} 
+  </style>
   </head>
 
   <body>
